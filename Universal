@@ -81,19 +81,13 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/yzeedw/Mortalv2-main/main/UNIVERSAL%20AIMBOT%20V2"))()
    end,
 })
-local Button = Tab:CreateButton({
-   Name = "Keyboard",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
-end,
-})
 local MiscTab = Window:CreateTab("Tools", 4483362458) -- Title, Image
-local Button = Tab:CreateButton({
+local Button = MiscTab:CreateButton({
    Name = "Telekinesis",
    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Bo10923/Telekinesis/refs/heads/main/Universal"))()
    end,
 })
-local Button = Tab:CreateButton({
+local Button = MiscTab:CreateButton({
    Name = "Click Tp",
    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Bo10923/Click-Tp/refs/heads/main/Universal"))()
    end,
