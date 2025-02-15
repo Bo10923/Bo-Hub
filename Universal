@@ -92,11 +92,6 @@ local Button = MiscTab:CreateButton({
    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Bo10923/Click-Tp/refs/heads/main/Universal"))()
    end,
 })
-local Button = MiscTab:CreateButton({
-   Name = "Set Size",
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Bo10923/Set-size/main/Universal"))()
-end,
-})
  local Slider = MiscTab:CreateSlider({
     Name = "Walkspeed",
     Range = {16, 250},
