@@ -45,7 +45,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/BO12582/Hitbox/refs/h
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "Control npc (by patrick)",
+   Name = "Big head",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bo10923/Big-head/main/Universal"))()
+end,
+})
+local Button = Tab:CreateButton({
+   Name = "Control npc",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty23.lua"))()
    end,
@@ -67,7 +73,8 @@ local Button = Tab:CreateButton({
 })
 local Button = Tab:CreateButton({
    Name = "Godmode",
-   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Bo10923/godmode/refs/heads/main/Universal"))()
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bo10923/godmode/refs/heads/main/Universal"))()
    end,
 })
 local Button = Tab:CreateButton({
